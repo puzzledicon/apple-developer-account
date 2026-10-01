@@ -30,10 +30,14 @@
       <div class="keywords"><span>苹果开发者账号</span><span>Apple Developer</span><span>如何注册苹果开发者账号</span><span>Enrollment</span><span>App Store Connect</span><span>开通内购</span><span>In-App Purchase</span><span>邓白氏</span></div>
     </div>
     <div class="content">
-      <h2>操作步骤要点</h2>
-      <ul class="check"><li>确认已接受相关协议，且银行/税务信息完整。</li><li>在 App 的 Capabilities / Identifiers 中启用 In-App Purchase。</li><li>于 App Store Connect 创建内购项目（消耗型、非消耗型、订阅等）。</li><li>用 Sandbox 测试员完成购买闭环验证。</li><li>提审时提供可验证的演示路径与测试说明。</li></ul>
-      <h2>实操建议</h2>
-      <ul class="check"><li>所有费用、材料与审核结果以平台当前页面为准。</li><li>中途更换主体类型或关键资料，容易导致验证反复。</li><li>涉及内购时，先完成付款/协议，再创建商品与联调。</li></ul>
+      <h2>适用场景</h2>
+      <p>开通 App 内购买能力总览。</p>
+      <h2>路径总览</h2>
+      <ol class="steps"><li>Program 会员有效。</li><li>签署付费应用协议并完成银行税务。</li><li>在 App 下创建 IAP 项目。</li><li>客户端用 StoreKit 实现购买与校验。</li><li>Sandbox 测试员完整走通。</li><li>随版本提交审核。</li></ol>
+      <h2>注意事项</h2>
+      <ul class="check"><li>数字内容通常应走 IAP。</li><li>恢复购买与账单问题入口需具备。</li></ul>
+      <h2>官方参考</h2>
+      <p><a href="https://developer.apple.com/in-app-purchase/" target="_blank" rel="noopener">In-App Purchase</a></p>
     </div>
     <p style="margin-top:1rem"><a href="../index.html">← 返回目录</a></p>
 

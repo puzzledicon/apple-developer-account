@@ -1,6 +1,6 @@
 # Apple 开发者账号指南
 
-说明如何注册 Apple Developer Program，以及如何为内购与上架做好协议准备。
+说明如何选择 Individual/Organization、完成 Enrollment、签署付费应用与银行税务协议，并为内购开通做好准备。
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-online-2ea44f?logo=github)](https://puzzledicon.github.io/apple-developer-account/)
 
