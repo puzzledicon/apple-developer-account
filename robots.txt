@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://puzzledicon.github.io/apple-developer-account/sitemap.xml
